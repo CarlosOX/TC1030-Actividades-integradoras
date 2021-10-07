@@ -5,7 +5,7 @@ Puede servir para determinar que alimentos conviene comer y cuales escoger depen
 
 ### Selecciona y usa una estructura lineal adecuada al problema
 
-Este apartado se entregara en proximos avances
+Hago uso de una lista doblemente ligada para almacenar las calorias de los alimentos de forma que se pueda acceder a cada valor de la lista, encontrar el ultimo valor agregado(tail) o el primer valor agregado (head). El poder crear una lista doblemente ligada permite poder agregar o eliminar los elementos guardados. Como se trabaja con apuntadores se permite aplicar métodos a la lista que la modifiquen ya sea buscando algun objeto, agregandolo, actualizandolo o eliminandolo. 
 
 
 ### Selecciona un algoritmo de ordenamiento adecuado al problema
@@ -23,13 +23,16 @@ Este apartado se entregara en proximos avances
 los casos de pruebas para todas las funciones se encuentran pruebas.cpp donde se prueban las funciones de: 
 
 El ordenamiento de datos para todos los casos posibles de forma correcta.
+Se observan las diferentes funciones que se pueden realizar con las listas, entre ellas agregar, eliminar o buscar algun elemento en la lista.
 
 
 ### Hace un análisis de complejidad correcto y completo para todo el programa y sus compenetes,
 
 #### lista 
- Se implementará en proximos avances
-
+ Funcion de inserción: O(1) debido a que no presenta iteraciones y solo hay operaciones que  afectan  las entradas .
+ Funcion de busqueda: O(n)  Para esta función se presenta un ciclo While donde n es representado por el valor que se desea encontrar se trata de O(1)*n. 
+ Funcion de eliminado: O(n) y O(1) 
+Para esta función se presentan un valor de entrada en el cual se utiliza un ciclo While donde las iteraciones(itr) son representadas por " n " e incrementa de forma lineal. Sin embargo este ciclo no afecta los valores de entrada de la función por lo que O(1). O sea complejidad O(1).
 #### ordenamiento de medicinas
 
 ordenamiento con insertion sort:  Para la mayoria de los casos se recibiran datos de forma aleatoria por lo que la complejidad sera o(n)
