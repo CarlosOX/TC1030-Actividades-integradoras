@@ -33,16 +33,25 @@ Se observan las diferentes funciones que se pueden realizar con las listas, entr
  Funcion de busqueda: O(n)  Para esta función se presenta un ciclo While donde n es representado por el valor que se desea encontrar se trata de O(1)*n. 
  Funcion de eliminado: O(n) y O(1) 
 Para esta función se presentan un valor de entrada en el cual se utiliza un ciclo While donde las iteraciones(itr) son representadas por " n " e incrementa de forma lineal. Sin embargo este ciclo no afecta los valores de entrada de la función por lo que O(1). O sea complejidad O(1).
-#### ordenamiento de medicinas
+
+Funcion add del BST: O(log(n)) debido a que casi siempre se tendrá el mejor de los casos el cual es que no esté degenerado el árbol. Debido a su recursividad es O*log(n). Para el peor de los casos, el cual sería un árbol degenerado será complejidad O(n).
+
+Función remove del BST: O(log(n)) debido a su recursividad la cual modifica los valores de entrada. O*log(n). Todo esto para el mejor de los casos, el cual se tendrá la mayoría de las veces. Para el peor de los casos el cual es un árbol degenerado será complejidad O(n).
+
+Función find del BST: Debido a su recursividad se tiene O*log(n) para el mejor de los casos el cual es un árbol no degenerado. O sea O(log(n)). Para el peor de los casos se trata de una complejidad O(n) el cual se daría en un árbol degenerado.
+
+
+#### ordenamiento de calorías
 
 ordenamiento con insertion sort:  Para la mayoria de los casos se recibiran datos de forma aleatoria por lo que la complejidad sera o(n)
 
 #### uso de árbol
 
-Se implementara en proximos avances
+Usé un BTS para poder organizar los alimentos por sus calorias, de tal manera que se puedan encontrar o agregar alimentos con calorias similares. El arreglo inicial que se utilizó para el árbol está desordenado por lo que es poco probable que se degenere.
+
+Utilicé un menú donde se encuentran las funciones de busqueda, eliminar o agregar algun dato al árbol. Estas se encuentran en las líneas 81 a la 83.
 
 ## SICT0303B: Implementa acciones científicas 
-
 ### Implementa mecanismos para consultar información de las estructuras correctos y útiles dentro de un programa.
 
 Se implementara en proximos avances
