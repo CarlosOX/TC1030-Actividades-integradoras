@@ -1,2 +1,2 @@
 
-![HOTEL(HOTEL.png)
+![HOTEL](HOTEL.png)
